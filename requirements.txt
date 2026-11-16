@@ -1,6 +1,5 @@
-flet[all]==0.85.3
-flet-map==0.85.3
-flet-desktop==0.85.3
+flet[all]==1.0.5
+flet-map==1.0.5
+flet-desktop==1.0.5
 httpx
 gunicorn
-fastapi==1.0.5
