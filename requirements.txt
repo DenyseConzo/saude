@@ -1,0 +1,4 @@
+flet==0.85.3
+flet-map==0.85.3
+httpx
+gunicorn

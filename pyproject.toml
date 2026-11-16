@@ -1,0 +1,36 @@
+[project]
+name = "saude-facil"
+version = "0.1.0"
+description = "Saúde Fácil — assistente de saúde digital para Moçambique (protótipo com dados mock)"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Flet developer", email = "you@example.com" }
+]
+dependencies = [
+    "flet>=0.85.3"
+]
+
+[dependency-groups]
+dev = [
+    "flet-cli>=0.85.3",
+    "flet-desktop>=0.85.3",
+    "flet-web>=0.85.3",
+    "pytest>=8",
+]
+
+[tool.flet]
+org = "mz.saudefacil"
+product = "Saúde Fácil"
+company = "Saúde Fácil"
+copyright = "Copyright (C) 2026 Saúde Fácil"
+
+[tool.flet.app]
+path = "src"
+
+[tool.flet.web]
+pwa_background_color = "#F4F7FB"
+pwa_theme_color = "#0D9488"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
