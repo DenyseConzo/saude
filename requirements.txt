@@ -3,4 +3,4 @@ flet-map==0.85.3
 flet-desktop==0.85.3
 httpx
 gunicorn
-fastapi
+fastapi==1.0.5
